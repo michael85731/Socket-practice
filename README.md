@@ -4,7 +4,7 @@ Just a simple file transfer from server to client.
 ***
 ## Program restriction
 ### 1. Image file title limit
-My program only accept `PNG` image file, and file name must follow format   `test + Number.png`, Number must be under 10.  
+My program only accept `PNG` image file, and file name must follow format   `test + Number.png`, `Number` must be under 10.  
 For example, `test1.png` will work fine.
 
 ### 2. Use Mac OS as client BUG
