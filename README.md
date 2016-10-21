@@ -49,7 +49,7 @@ When client program ask you to type `image number`, it will generate the image f
 The file which will be generate is a png file name `receive.png`.
 ***
 ## Test
-OS environment: Mac OS 10.11.5, Ubuntu 14.04
+OS environment: Mac OS 10.11.5, Ubuntu 14.04  
 Testing image file: test1.png, test2.png
 
 ### Local testing
