@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
    char *buffer = (char *)malloc(sizeof(char));
 
    // 清空serv_addr這塊記憶體空間，其用意不明
-   bzero((char *)&serv_addr, sizeof(serv_addr)); //把serv_addr這塊記憶體區間清掉
+   memset((char *)&serv_addr, 0, sizeof(serv_addr)); //把serv_addr這塊記憶體區間清掉
 
    //設定連線參數(IP, Port Num)
    char *ip = argv[1];
@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
    printf("Please enter image number: ");
 
    //送要選取的圖片編號給server端
-   memset(buffer, 0, sizeof(buffer) * strlen(buffer));  //清空buffer
+   memset(buffer, 0, sizeof(buffer) * sizeof(char));  //清空buffer
 
    fgets(buffer, 2, stdin);
    write(sockfd, buffer, sizeof(buffer));
