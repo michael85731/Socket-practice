@@ -1,6 +1,6 @@
 # What's this?
-A Socket programming practice written by `c`.
-Just a simple file transfer from server to client.
+A Socket programming practice written by `c`.  
+Just a simple PNG file transfer from server to client.
 ***
 ## Program restriction
 ### 1. Image file title limit
