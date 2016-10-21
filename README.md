@@ -2,7 +2,7 @@
 A Socket programming practice written by `c`.  
 Just a simple PNG file transfer from server to client.
 ***
-## Program restriction
+## Restriction & Bugs
 ### 1. Image file title limit
 My program only accept `PNG` image file, and file name must follow format   `test + Number.png`, `Number` must be under 10.  
 For example, `test1.png` will work fine.
