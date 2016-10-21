@@ -62,7 +62,7 @@ Both client and server running on same machine
 
 ### Remote testing
   Execute two program on different machine
-- Client - running on Ubuntu 14.04
-- Server - running on Mac OS 10.11.5
+- Client: running on Ubuntu 14.04
+- Server: running on Mac OS 10.11.5
   - Open port: 3000
 - Result: success receive correct image file.
