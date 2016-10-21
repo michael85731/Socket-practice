@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
    printf("Receive connect request from %s port\n", argv[1]);
 
    //把client傳來的資料讀進buffer陣列中
-   memset(buffer, 0, sizeof(buffer) * strlen(buffer));  //清空buffer
+   memset(buffer, 0, sizeof(buffer) * sizeof(char));  //清空buffer
    read(newsockfd, buffer, sizeof(buffer));
 
    printf("Read image %c and send back to client\n", buffer[0]);
