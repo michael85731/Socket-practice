@@ -25,9 +25,10 @@ gcc server.c -o server
 ```
 ./server PortNumber
 ```
+> Note: PortNumber is what port you want server to listen.  
 
-> Note: PortNumber is what port you want server to listen.
 ***
+
 ### Client side
 1. Switch to client file's location(the result after compile).
 2. Type 
@@ -37,8 +38,10 @@ gcc server.c -o server
 
 > Note 1: IP is depends on where you place the server file(after compile).  
 
-> Note 2: PortNumber is depends on server, you have to type the port number that server is listening.
+> Note 2: PortNumber is depends on server, you have to type the port number that server is listening.  
+
 ***
+
 ## Result
 Output file: `receive.png`
 
